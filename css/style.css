@@ -1,29 +1,22 @@
 body {
-    /* font-family: ; */
+    font-family: "Vesper Libre", sans-serif;
     color: #1a1a1a;
     line-height: 1.5;
     margin: 0;
 }
 
 
-header {
+header, footer {
     background-color: #000;
     color: #fff;
     text-align: center;
 }
 
 
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-}
-
-
-/* Select the appropriate tag for image */
 img {
     width: 100%;
 }
+
 
 #logo {
     width: 100px;
@@ -52,9 +45,8 @@ h1 {
 }
 
 
-/* Select figcaption, article category, sub-title, author, date and h2 */
 figcaption, .news, .sub, .author, time, h2 {
-    
+    font-family: "Open Sans", sans-serif;
 }
 
 .author, time {

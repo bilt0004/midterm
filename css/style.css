@@ -21,7 +21,9 @@ footer {
 
 
 /* Select the appropriate tag for image */
-
+img {
+    width: 100%;
+}
 
 #logo {
     width: 100px;
@@ -51,9 +53,14 @@ h1 {
 
 
 /* Select figcaption, article category, sub-title, author, date and h2 */
+figcaption, .news, .sub, .author, time, h2 {
+    
+}
 
-
-/* Select author and date */
+.author, time {
+    font-size: .85rem;
+    margin-bottom: 0;
+}
 
 
 figure {
@@ -75,4 +82,12 @@ ul {
 }
 
 
-/* Style links */
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
+}
